@@ -1,0 +1,279 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {	
+				"navigationBarTitleText": "楷燊供应链"
+				// #ifdef MP 
+				// #endif 
+			}
+		},
+		{
+			"path": "pages/public/login",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/vehicle/vehicle",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "选择品牌"
+			}
+		},
+		{
+			"path": "pages/product/vehicle/carModels",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "选择车类车型"
+			}
+		},
+		{
+			"path": "pages/product/carList/carList",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "买车",
+				 "navigationStyle":"custom" , 
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/carList/carListDetails",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "车详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/carList/calculator",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "贷款方案",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/product/shoucang/shoucangCarList",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/chelingd/chelingdCarList",
+			"style": {
+				"navigationBarTitleText": "车龄最短",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/gaojia/gaojiaCarList",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "高价车",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/dijia/dijiaCarList",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "低价车",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, 
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, 
+		{
+			"path": "pages/mine/geren",      
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/rexiao/rexiaoList",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "热销车",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/loanApplic/loanApplicList",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "贷款申请",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/appliProgress/appliProgress",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "申请进度",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/loanApplic/loanApplicDetails",
+			"style": {
+				"navigationBarTitleText": "贷款记录详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/product/liulan/liuLanCarList",
+            "style" : {
+				"navigationBarTitleText": "浏览记录",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+		,{
+		    "path" : "pages/index/search",
+		    "style" : {
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		,{
+		    "path" : "pages/inforMation/news",
+		    "style" : {
+				"navigationBarTitleText": "资讯",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		,{
+		    "path" : "pages/Article/ArticleDetail",
+		    "style" : {
+				"navigationBarTitleText": "资讯",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		,{
+		    "path" : "pages/Introduction/Introduction",
+		    "style" : {
+				// "navigationBarTitleText": "简介",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none" // 取消iOS回弹,避免和下拉刷新冲突 (小程序无法取消)
+				}
+			}
+		}
+        ,{
+            "path" : "pages/finance/finance",
+            "style" : {
+            	"navigationBarTitleText": "金融",
+            	"app-plus": {
+            		"bounce": "none"
+            	}
+            }
+        },
+		{
+		    "path" : "pages/finance/financeDetail",
+		    "style" : {
+		    	"navigationBarTitleText": "金融详情",
+		    	"app-plus": {
+		    		"bounce": "none"
+		    	}
+		    }
+		},
+		{
+		    "path" : "pages/finance/applyFor",
+		    "style" : {
+		    	"navigationBarTitleText": "申请",
+		    	"app-plus": {
+		    		"bounce": "none"
+		    	}
+		    }
+		}
+    ],
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#0088fe",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#2c2c2c",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/product/carList/carList",
+				"iconPath": "static/tabs/maiche.png",
+				"selectedIconPath": "static/tabs/maiche-active.png",
+				"text": "买车"
+			},
+			{
+				"pagePath": "pages/inforMation/news",
+				"iconPath": "static/tabs/zixun.png",
+				"selectedIconPath": "static/tabs/zixun_active.png",
+				"text": "资讯"
+			},
+			{
+				"pagePath": "pages/finance/finance",
+				"iconPath": "static/tabs/maiche.png",
+				"selectedIconPath": "static/tabs/maiche-active.png",
+				"text": "金融"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabs/me.png",
+				"selectedIconPath": "static/tabs/me-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

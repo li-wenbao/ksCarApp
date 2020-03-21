@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "详情展示",
+  "titleNView": {
+    "type": "transparent"
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}
